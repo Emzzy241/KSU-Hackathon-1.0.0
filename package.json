@@ -1,5 +1,5 @@
 {
-  "name": "myfashionapp-application",
+  "name": "myfashionapp",
   "version": "1.0.0",
   "repository": {
     "url": "git+https://github.com/Emzzy241/great-giphy"
@@ -25,6 +25,7 @@
     "dotenv-webpack": "^8.0.1",
     "eslint": "^8.10.0",
     "eslint-webpack-plugin": "^3.1.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.5.0",
     "style-loader": "^3.3.1",
