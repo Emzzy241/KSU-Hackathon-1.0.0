@@ -1,13 +1,18 @@
 {
   "name": "myfashionapp-application",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/Emzzy241/great-giphy"
+  },
   "description": "",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Mojiboye Emmanuel Oluwole(Emzzy241)",
